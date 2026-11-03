@@ -1,0 +1,9 @@
+networks:
+        LOA_network: bridge
+
+services:
+        db:
+                image:
+                ports:
+                enviroment:
+        networks: LOA_network
